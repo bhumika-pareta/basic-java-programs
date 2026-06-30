@@ -1,0 +1,22 @@
+public class Employee {
+    int age;
+      String name;
+
+    public static void main(String[] args) {
+       
+        Employee e1 = new Employee();
+         Employee e2 = new Employee();
+
+        e1.name = "Bhumika";
+        e1.age = 19;
+
+        e2.name = "Chetan";
+        e2.age = 21;
+
+
+System.out.println(e1.name);
+System.out.println(e2.name);
+
+
+    }
+}
