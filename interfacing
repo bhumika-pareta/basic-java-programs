@@ -1,0 +1,28 @@
+interface Animall {
+
+    public void walk();
+    void eat();
+}
+interface Herbivores {
+    public void eats();
+}
+class Horsee implements  Animall , Herbivores {
+   public void walk() {
+        System.out.println("Horse walks on 4 legs");
+
+    }
+    public void eat(){
+        System.out.println("Animal eats");
+    }
+    public void eats(){
+        System.out.println("Horse eats only plants");
+    }
+} 
+
+public class A {
+    public static void main (String args []) {
+        Horsee horse = new Horsee();
+        horse.walk();
+        horse.eat();
+        horse.eats();    }
+}
