@@ -1,0 +1,20 @@
+import java.util.*;
+class Circum{
+public float circumference(float r){
+   
+
+    return 2*3.14f*r;
+}
+
+}
+public class F {
+    public static void main (String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of r");
+        float r = sc.nextFloat();
+        Circum c = new Circum();
+
+System.out.println(c.circumference(r));
+
+    }
+}
